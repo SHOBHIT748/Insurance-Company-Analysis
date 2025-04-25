@@ -12,29 +12,32 @@ This project delivers a detailed analysis of an insurance company's dataset usin
 
 To ensure accuracy and consistency in analysis, the dataset underwent a comprehensive cleaning, transformation, and preprocessing phase. The key preparation steps included:
 
-Handling missing or inconsistent values
+✅ Handling missing or inconsistent values
 
-Standardizing column formats for dates, numerical entries, and text
+✅ Standardizing column formats for dates, numerical entries, and text
 
-Creating age-based groupings for customer segmentation
+✅ Creating age-based groupings for customer segmentation
 
-Deriving new metrics such as active/inactive policy status, total claims per policy, and customer tenure
+✅ Deriving new metrics such as active/inactive policy status, total claims per policy, and customer tenure
 
-Removing duplicate entries and irrelevant records
+✅ Removing duplicate entries and irrelevant records
 
-Normalizing categorical fields including gender, policy type, and claim status
+✅ Normalizing categorical fields including gender, policy type, and claim status
 
 Data transformation was performed using both Power Query Editor (in Power BI) and Python (Pandas).
 
 📌 Key Insights & Features
 
-Active vs Inactive Policies
+🔹 Active vs Inactive Policies
+
 Analyzed policy status to evaluate customer retention and engagement patterns. This helped highlight the percentage of customers currently engaged with the insurer.
 
-Policy Type Distribution
+🔹 Policy Type Distribution
+
 Categorized policies into major types such as Health, Auto, Home, and Life to identify the most common products and evaluate their relative performance.
 
-Financial Metrics
+🔹 Financial Metrics
+
 Assessed and compared the following financial indicators:
 
 Premiums paid by customers
@@ -43,30 +46,35 @@ Coverage amounts offered by the company
 
 Claim amounts submitted by policyholders
 
-The visual comparisons helped identify gaps between risk coverage, premiums collected, and actual claims, enabling better risk pricing strategies.
+Visual comparisons helped identify gaps between risk coverage, premiums collected, and actual claims, enabling better risk pricing strategies.
 
-Gender-Based Analysis
+🔹 Gender-Based Analysis
+
 Investigated differences in policy ownership, claim behavior, and premium contribution between male and female policyholders. This provided meaningful insights for demographic-based targeting and product design.
 
-Claim Status Evaluation
+🔹 Claim Status Evaluation
+
 Claims were analyzed across three categories: Approved, Rejected, and Pending. This helped assess operational efficiency and pinpoint where delays or inconsistencies might occur.
 
-Claim Amount by Age Group
+🔹 Claim Amount by Age Group
+
 Divided customers into age brackets (18–30, 31–45, 46–60, 60+) to explore how age affects claim amounts and behavior. This analysis supported actuarial evaluations and targeted policy structuring.
 
-Matrix Visualization
+🔹 Matrix Visualization
+
 Generated a correlation matrix heatmap to visualize relationships between numeric fields such as age, premium, coverage, and claim amount. The matrix helped identify patterns and multicollinearity between variables.
 
-Sentiment Analysis
+🔹 Sentiment Analysis
+
 Customer feedback was analyzed using TextBlob to classify sentiments into positive, neutral, or negative. Word clouds and sentiment score distributions were also created to visualize overall customer perception and areas for improvement.
 
-📁  Files Included
+📁 Files Included
 
-Insurance Project.pbix – The main Power BI report file.
+📄 Insurance Project.pbix – The main Power BI report file
 
-InsuranceData.csv – Cleaned dataset used for analysis
+📄 InsuranceData.csv – Cleaned dataset used for analysis
 
-Customer Feedback.csv  - Dataset of reviews
+📄 Customer Feedback.csv – Dataset of reviews
 
 
 📸 Screenshots
